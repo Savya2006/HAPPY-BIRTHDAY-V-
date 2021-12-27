@@ -1,0 +1,132 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.685);
+}
+body{
+    margin: 0px;
+    background-color: lavender;
+    
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color:white;
+    font-size: 45px;
+    font-family: fantasy;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-110%,-150%);
+}
+.bodyimg h3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 1600px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-40%, -230%);
+}
+
+.bodyimg h2{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    transform: (-90%,-90%);
+
+}
+
+.origami h3{
+    font-size: 30;
+    font-family: Harlow Solid Italic;
+}
+
+.Message h2{
+    margin-left: 20px;
+}
+
+.Message h3{
+    margin-left: 15px;
+}
+
+.Message h5{
+    border: 2px solid black;
+    font-size: 25px;
+    margin-left: 1170px;
+}
+
+
+.Facts h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-family:'Times New Roman', Times, serif
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 11px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;   
+}
+
+.Facts{
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.SkinCare{
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.Motivation{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+
+.Tannie{
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
